@@ -1,0 +1,41 @@
+# Rust build directory
+/target/
+**/*.rs.bk
+
+# Solana build output
+/target/deploy/
+/target/release/
+
+# Node modules
+/node_modules/
+
+# Environment files
+.env
+.env.*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Solana specific
+.anchor/
+test-ledger/
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.pdb
+*.ilk
+
+# Logs
+*.log 
